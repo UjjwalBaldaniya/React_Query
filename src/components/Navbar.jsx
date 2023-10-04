@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../styles/navbar.css'
 
 const Navbar = () => {
@@ -7,9 +7,11 @@ const Navbar = () => {
         <>
             <div className="navbar">
                 <ul>
-                    <Link to='/'>Home</Link>
-                    <Link to='/superhero'>SuperHero</Link>
-                    <Link to='/rqsuperhero'>RqSuperHero</Link>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/super-hero'>Super-Hero</NavLink>
+                    <NavLink to='/rq-super-hero'>RQ Super-Hero</NavLink>
+                    <NavLink to='/parallel-queries'>Parallel Queries</NavLink>
+                    <NavLink to='/dynamic-parallel-queries'>Dynamic Parallel</NavLink>
                 </ul>
             </div>
         </>

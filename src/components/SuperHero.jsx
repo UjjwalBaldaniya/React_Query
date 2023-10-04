@@ -4,12 +4,19 @@ import React, { useEffect, useState } from "react";
 const SuperHero = () => {
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState("");
 
     const getApiData = async () => {
-        const res = await axios.get('http://localhost:4000/superheros')
-        console.log(res.data);
-        setData(res.data)
-        setIsLoading(false)
+        try {
+            const res = await axios.get('http://localhost:4000/superheros')
+            console.log(res.data);
+            setData(res.data)
+            setIsLoading(false)
+        } catch (error) {
+            console.log(error);
+            setError(error.message)
+            setIsLoading(false)
+        }
     }
 
     useEffect(() => {
@@ -18,6 +25,9 @@ const SuperHero = () => {
 
     if (isLoading) {
         return <h1>Loading ...</h1>
+    }
+    if (error) {
+        return <h1>{error}</h1>
     }
 
     return (

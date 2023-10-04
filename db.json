@@ -1,22 +1,48 @@
 {
     "superheros" : [
         {
-            "userId": 1,
             "id": 1,
             "title": "delectus aut autem",
             "completed": false
         },
         {
-            "userId": 1,
             "id": 2,
             "title": "quis ut nam facilis et officia qui",
             "completed": false
         },
         {
-            "userId": 1,
             "id": 3,
             "title": "fugiat veniam minus",
             "completed": false
+        }
+    ],
+    "employee" : [
+        {
+            "id": 1,
+            "title": "delectus",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "title": "quis ut nam",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "title": "fugiat",
+            "completed": false
+        }
+    ],
+    "user" : [
+        {
+            "id": "ujjwal@gmail.com",
+            "name":"ujjwal"
+        }
+    ],
+    "details" :[
+        {
+            "id": "ujjwal",
+            "city":"surat"
         }
     ]
 }
