@@ -4,13 +4,16 @@ import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 
 const RqIndividualData = () => {
+    // debugger
     const { id } = useParams()
+    console.log(id);
 
     const fetchSuperHero = () => {
-        return axios.get(`http://localhost:4000/superaheros/${id}`)
+        return axios.get(`http://localhost:4000/superheros/${id}`)
     }
 
     const { isLoading, data, isError, error } = useQuery('individual', fetchSuperHero)
+    console.log(data);
 
     if (isLoading) return 'Loading...'
     if (isError) return error.message

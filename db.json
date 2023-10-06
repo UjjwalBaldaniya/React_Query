@@ -1,48 +1,106 @@
 {
-    "superheros" : [
-        {
-            "id": 1,
-            "title": "delectus aut autem",
-            "completed": false
-        },
-        {
-            "id": 2,
-            "title": "quis ut nam facilis et officia qui",
-            "completed": false
-        },
-        {
-            "id": 3,
-            "title": "fugiat veniam minus",
-            "completed": false
-        }
-    ],
-    "employee" : [
-        {
-            "id": 1,
-            "title": "delectus",
-            "completed": false
-        },
-        {
-            "id": 2,
-            "title": "quis ut nam",
-            "completed": false
-        },
-        {
-            "id": 3,
-            "title": "fugiat",
-            "completed": false
-        }
-    ],
-    "user" : [
-        {
-            "id": "ujjwal@gmail.com",
-            "name":"ujjwal"
-        }
-    ],
-    "details" :[
-        {
-            "id": "ujjwal",
-            "city":"surat"
-        }
-    ]
+  "superheros": [
+    {
+      "id": 1,
+      "title": "delectus aut autem",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "quis ut nam facilis et officia qui",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "fugiat veniam minus",
+      "completed": false
+    },
+    {
+      "title": "ujjwal",
+      "id": 4
+    },
+    {
+      "title": "ujjwal",
+      "id": 5
+    },
+    {
+      "title": "ujjwal B",
+      "id": 6
+    },
+    {
+      "title": "ABC",
+      "id": 7
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "title": "delectus",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "quis ut nam",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "fugiat",
+      "completed": false
+    }
+  ],
+  "user": [
+    {
+      "id": "ujjwal@gmail.com",
+      "name": "ujjwal"
+    }
+  ],
+  "details": [
+    {
+      "id": "ujjwal",
+      "address": [
+        "surat",
+        "gujrat",
+        "india"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "color": "Red"
+    },
+    {
+      "id": 2,
+      "color": "Blue"
+    },
+    {
+      "id": 3,
+      "color": "Green"
+    },
+    {
+      "id": 4,
+      "color": "Orange"
+    },
+    {
+      "id": 5,
+      "color": "White"
+    },
+    {
+      "id": 6,
+      "color": "Black"
+    },
+    {
+      "id": 7,
+      "color": "Yellow"
+    },
+    {
+      "id": 8,
+      "color": "Purple"
+    },
+    {
+      "id": 9,
+      "color": "Silver"
+    }
+  ]
 }
